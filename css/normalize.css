@@ -509,3 +509,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/**
+ * Added Hypens functionality
+ */
+body {
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+         -o-hyphens: auto;
+            hyphens: auto;
+}
